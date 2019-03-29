@@ -8,6 +8,7 @@ def reformat_languages(languages)
         type: lang_properties[:type],
         style: []
       }
+      output[language][:style] << lang_type
     end
   end
 
